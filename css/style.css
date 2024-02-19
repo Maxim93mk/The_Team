@@ -1,0 +1,18 @@
+/* <!-- HEADER --> */
+@import url(../css/header.css);
+@import url(../css/variables.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  border: none;
+}
+
+.container {
+  max-width: 2011px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */
