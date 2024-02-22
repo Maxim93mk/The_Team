@@ -8,9 +8,12 @@
 }
 .main-the-team-cards {
   display: grid;
-  grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
   gap: 82px 212px;
   margin-top: 56px;
+  max-width: 1100px;
+  width: 100%;
 }
 .main-the-team-cards-foto {
   display: flex;
