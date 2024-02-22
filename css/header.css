@@ -1,6 +1,7 @@
+/* <!-- header-navigation --> */
 .header-navigation {
   width: 100%;
-  background-color: var(--header-background-color);
+  background-color: var(--main-background-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +27,7 @@
   text-decoration: none;
 }
 
+/* <!-- header-image --> */
 .header-image {
   background-image: url(../img/image.png);
   background-repeat: no-repeat;
