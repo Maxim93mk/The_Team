@@ -1,0 +1,30 @@
+/* <!-- main-the-team --> */
+.main-the-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 58px 10px 112px;
+  background-color: var(--main-the-team-background-color);
+}
+.main-the-team-cards {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+  gap: 82px 212px;
+  margin-top: 56px;
+}
+.main-the-team-cards-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.main-the-team-cards-foto__name {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--main-background-color);
+}
+.main-the-team-cards-foto__profession {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+}/*# sourceMappingURL=the_team.css.map */

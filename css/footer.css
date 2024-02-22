@@ -1,0 +1,15 @@
+/* <!-- FOOTER --> */
+.footer-text {
+  background-color: var(--footer-background-color);
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.footer-text__p {
+  max-width: 540px;
+  width: 100%;
+  text-align: center;
+  color: var(--main-text-color);
+}/*# sourceMappingURL=footer.css.map */
