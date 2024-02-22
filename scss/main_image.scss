@@ -1,0 +1,19 @@
+/* <!-- main-image --> */
+.main-image {
+    background-image: url(../img/image_blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 483px;
+    height: 100%;
+    padding: 128px 0;
+    display: flex;
+    justify-content: center;
+    &__p {
+        font-size: 48px;
+        font-weight: 500;
+        color: var(--main-text-color);
+        max-width: 893px;
+        width: 100%;
+        text-align: center;
+    }
+}

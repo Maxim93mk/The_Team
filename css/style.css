@@ -3,6 +3,7 @@
 @import url(../css/variables.css);
 @import url(../css/header.css);
 @import url(../css/the_problem.css);
+@import url(../css/main_image.css);
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +19,7 @@
   margin: 0 auto;
 }
 
-/* <!-- MAIN --> 
+/* <!-- MAIN --> */
 /* Общие стили */
 .main__h2 {
   color: var(--main-background-color);
