@@ -60,4 +60,17 @@
   .header-image__h1 {
     font-size: 64px;
   }
+}
+/* Планшетная версия от 768px - 1140px */
+@media (min-width: 768px) and (max-width: 1140px) {
+  /* <!-- header-navigation --> */
+  .header-navigation {
+    gap: 100px;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  /* <!-- header-image --> */
+  .header-image__h1 {
+    font-size: 72px;
+  }
 }/*# sourceMappingURL=header.css.map */
