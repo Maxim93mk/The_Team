@@ -7,8 +7,6 @@
     align-items: center;
     gap: 502px;
     padding: 20px 0;
-    max-height: 84px;
-    height: 100%;
     &__list {
         display: flex;
         list-style: none;
@@ -16,10 +14,10 @@
         font-size: 24px;
         font-weight: 500;
         color: var(--main-text-color);
-        &-item{
+        &-item {
             display: flex;
             gap: 8px;
-            &__a{
+            &__a {
                 color: var(--main-text-color);
                 text-decoration: none;
             }
@@ -27,17 +25,37 @@
     }
 }
 /* <!-- header-image --> */
-.header-image{
+.header-image {
     background-image: url(../img/image_green.png);
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 403px;
-    height: 100%;
-    padding: 160px 0;
-    &__h1{
+    padding: 157px 0;
+    &__h1 {
         color: var(--main-text-color);
         font-size: 72px;
         font-weight: 500;
         text-align: center;
+    }
+}
+
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- header-navigation --> */
+    .header-navigation {
+        gap: 70px;
+        padding: 45px 0;
+        flex-wrap: wrap;
+        &__list {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    /* <!-- header-image --> */
+    .header-image {
+        padding: 114px 0;
+        &__h1 {
+            font-size: 64px;
+        }
     }
 }

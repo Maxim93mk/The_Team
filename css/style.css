@@ -39,4 +39,13 @@
 }
 .main__p-span_bold {
   font-weight: 700;
+}
+
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */
