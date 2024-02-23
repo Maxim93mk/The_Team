@@ -11,3 +11,10 @@
         gap: 16px;
     }
 }
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- main-the-problem --> */
+    .main-the-problem {
+        padding: 48px 10px 30px;
+    }
+}

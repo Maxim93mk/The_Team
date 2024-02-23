@@ -31,3 +31,20 @@
         }
     }
 }
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- main-the-team --> */
+    .main-the-team {
+        &-cards {
+            gap: 50px 50px;
+            &-foto {
+                &__name {
+                    font-size: 16px;
+                }
+                &__profession {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

@@ -13,3 +13,13 @@
         color: var(--main-text-color);
     }
 }
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- FOOTER --> */
+    .footer-text {
+        font-size: 15px;
+        &__p {
+            max-width: 340px;
+            width: 100%;
+        }
+    }
+}
