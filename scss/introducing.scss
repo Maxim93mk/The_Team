@@ -26,3 +26,19 @@
         gap: 40px;
     }
 }
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+    /* <!-- main-introducing-pied-piper-coin --> */
+.main-introducing-pied-piper-coin {
+    gap: 20px;
+    &__p-img {
+        gap: 20px;
+        &_attr {
+            font-size: 24px;
+        }
+    }
+    &__p {
+        gap: 20px;
+    }
+}
+}

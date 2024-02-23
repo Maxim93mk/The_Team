@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* <!-- main-introducing-pied-piper-coin --> */
 .main-introducing-pied-piper-coin {
   padding: 48px 10px 92px;
@@ -25,4 +26,21 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-}/*# sourceMappingURL=Introducing.css.map */
+}
+
+/* Мобильная версия от 360px - 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  /* <!-- main-introducing-pied-piper-coin --> */
+  .main-introducing-pied-piper-coin {
+    gap: 20px;
+  }
+  .main-introducing-pied-piper-coin__p-img {
+    gap: 20px;
+  }
+  .main-introducing-pied-piper-coin__p-img_attr {
+    font-size: 24px;
+  }
+  .main-introducing-pied-piper-coin__p {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=introducing.css.map */
