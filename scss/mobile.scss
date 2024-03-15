@@ -8,9 +8,9 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        gap: 200px;
+        gap: 10px;
         flex-direction: column;
-        padding-top: 70px;
+        padding-top: 20px;
         position: fixed;
         left: 0;
         right: 0;
@@ -19,6 +19,12 @@
         z-index: 10;
         background-color: var(--main-background-color);
         transition: all 1s ease-out;
+        &__button{
+            background-color: var(--main-background-color);
+            color: var(--main-text-color);
+            font-size: 30px;
+            cursor:pointer;
+        }
         &-navigation {
             display: flex;
             align-items: center;
@@ -35,6 +41,11 @@
             //         background-repeat: no-repeat;
             //         background-position: center;
             //     }
+        }
+        &-image {
+            width: 100vw;
+            height: 100vh;
+            padding: 157px 0;
         }
     }
 }
