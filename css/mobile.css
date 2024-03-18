@@ -2,16 +2,16 @@
 /* <!-- mobile-menu --> */
 /* Адаптирование под разные разрешения */
 /* Мобильная версия от 360px до 1140px */
-@media (min-width: 360px) and (max-width: 1140px) {
+@media (min-width: 360px) and (max-width: 600px) {
   .mobile-menu {
     height: 100vh;
     width: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 70px;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 30px;
     position: fixed;
     left: 0;
     right: 0;
@@ -21,7 +21,13 @@
     background-color: var(--main-background-color);
     transition: all 1s ease-out;
   }
-  .mobile-menu__button {
+  .mobile-menu__logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .mobile-menu__logo_close {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
     font-size: 30px;
@@ -31,17 +37,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
+    padding-top: 30px;
   }
-  .mobile-menu-navigation__list {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  .mobile-menu-navigation__a {
+    text-decoration: none;
+    font-size: 35px;
+    color: var(--main-text-color);
   }
   .mobile-menu-image {
     width: 100vw;
     height: 100vh;
-    padding: 157px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 /*  Версия ПК от  1140px */
