@@ -4,9 +4,9 @@
   width: 100%;
   background-color: var(--main-background-color);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 502px;
+  gap: 100px;
   padding: 5px 0;
   position: fixed;
   top: 0;
@@ -48,7 +48,6 @@
   /* <!-- header-navigation --> */
   .header-navigation {
     gap: 70px;
-    padding: 10px 0;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
@@ -81,7 +80,6 @@
   /* <!-- header-navigation --> */
   .header-navigation {
     gap: 70px;
-    padding: 10px 0;
     justify-content: space-around;
   }
   .header-navigation__list {
